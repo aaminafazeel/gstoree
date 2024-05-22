@@ -1,0 +1,303 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Search Banner */
+#search-banner {
+    max-width: 1300px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: #90a056;
+    margin: 10px auto;
+    background-image: url('../images/loyaltyy.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.search-banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.search-banner-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1;
+    border-radius: 50px;
+}
+
+.search-banner-text h1 {
+    font-size: 5rem;
+    line-height: 1.2;
+    color: #11034a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 0;
+}
+
+/* Loyalty Programs Section */
+#vegetable-venues {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+#vegetable-venues h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.venue-description {
+    margin-bottom: 30px;
+}
+
+.venue-description h3 {
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.venue-description p {
+    color: #666;
+    font-size: 1.2rem;
+}
+
+/* Registration Form */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #c0bcda;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #1e0847;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label, input, select {
+    display: block;
+    margin-bottom: 10px;
+    align-items: center;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(24, 6, 65);
+    font-size: 1.4rem;
+}
+
+label {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #4eb060;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #4a784d;
+}
+
+.loyalty-benefits {
+    margin-top: 20px;
+}
+
+.loyalty-benefits h2 {
+    margin-bottom: 10px;
+}
+
+.loyalty-benefits-details {
+    display: none;
+}
+
+.loyalty-benefits-details.show {
+    display: block;
+}
+/*==Footer============================*/
+footer {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 50px 20px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.footer-logo a {
+    color: #ecf0f1;
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-logo a span {
+    color: #90a056;
+}
+
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-social a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ecf0f1;
+    background-color: #34495e;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+.footer-social a:hover {
+    background-color: #1abc9c;
+}
+
+.footer-links {
+    margin-bottom: 20px;
+}
+
+.footer-links strong {
+    color: #ecf0f1;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links ul li a {
+    color: #ecf0f1;
+    opacity: 0.7;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+.footer-links ul li a:hover {
+    opacity: 1;
+}
+
+.subscribe {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.subscribe strong {
+    color: #ecf0f1;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.subscribe input {
+    width: 100%;
+    height: 48px;
+    padding: 0 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.subscribe input[type="submit"] {
+    background-color: #90a056;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe input[type="submit"]:hover {
+    background-color: #769041;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1c2833;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 1rem;
+}

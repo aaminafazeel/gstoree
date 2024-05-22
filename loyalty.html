@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneStopShop</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="loyalty.css">
+
+    <!-- Shortcut icon -->
+    <link rel="shortcut icon" href="images/o.png"/>
+
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+        <!-- Logo -->
+        <a href="./index.html" class="logo">
+            <span>One</span>StopShop
+        </a>
+        <!-- Menu -->
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about-us.html">About</a></li>
+            <li><a href="dairy.html">Dairy</a></li>
+            <li><a href="vegetables.html">Vegetables</a></li>
+            <li><a href="cosmetic.html">Cosmetics</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="loyalty.html">Loyalty</a></li>
+        </ul>
+        <!-- Right Navigation (Cart and Like buttons) -->
+        <div class="right-nav">
+            <a href="#" class="like">
+                <i class="far fa-heart"></i>
+                <span>0</span>
+            </a>
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Search Banner -->
+    <section id="search-banner">
+        <h1 class="search-banner-text">WELCOME TO THE LOYALTY PROGRAM</h1>
+    </section>
+
+    <!-- Loyalty Programs Section -->
+    <section id="vegetable-venues">
+        <h2>Loyalty Programs</h2>
+        <article class="venue-description">
+            <h3>Gold Loyalty Program</h3>
+            <p>Our Gold Loyalty Program is designed for our most valued customers who love to shop with us frequently and enjoy exclusive benefits. As a Gold member, you will receive the highest level of rewards and personalized services to enhance your shopping experience.</p>
+        </article>
+        <article class="venue-description">
+            <h3>Silver Loyalty Program</h3>
+            <p>The Silver Loyalty Program is perfect for regular shoppers who appreciate great value and additional perks. As a Silver member, you will enjoy a range of rewards and benefits that make your shopping experience even more enjoyable.</p>
+        </article>
+        <article class="venue-description">
+            <h3>Bronze Loyalty Program</h3>
+            <p>The Bronze Loyalty Program is our entry-level membership designed for occasional shoppers who still want to take advantage of great deals and rewards. As a Bronze member, you will start enjoying benefits that make each purchase more rewarding.</p>
+        </article>
+    </section>
+
+    <!-- Loyalty Registration Form -->
+    <section class="container">
+        <h1>Loyalty Registration</h1>
+        <form action="#" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="loyalty-scheme">Choose a Loyalty Scheme:</label>
+            <select id="loyalty-scheme" name="loyalty-scheme" required>
+                <option value="">Select...</option>
+                <option value="gold">Gold Loyalty</option>
+                <option value="silver">Silver Loyalty</option>
+                <option value="bronze">Bronze Loyalty</option>
+            </select>
+            <section class="loyalty-benefits">
+                <h2>Loyalty Benefits:</h2>
+                <article id="gold-benefits" class="loyalty-benefits-details">
+                    <h3>Gold Loyalty Benefits:</h3>
+                    <ul>
+                        <li>Double Points on Purchases</li>
+                        <li>Exclusive Discounts</li>
+                        <li>Priority Customer Service</li>
+                    </ul>
+                </article>
+                <article id="silver-benefits" class="loyalty-benefits-details">
+                    <h3>Silver Loyalty Benefits:</h3>
+                    <ul>
+                        <li>1.5x Points on Purchases</li>
+                        <li>Regular Discounts</li>
+                        <li>Customer Support</li>
+                    </ul>
+                </article>
+                <article id="bronze-benefits" class="loyalty-benefits-details">
+                    <h3>Bronze Loyalty Benefits:</h3>
+                    <ul>
+                        <li>1x Points on Purchases</li>
+                        <li>Occasional Discounts</li>
+                        <li>Basic Customer Support</li>
+                    </ul>
+                </article>
+            </section>
+            <section class="button-container">
+                <button type="submit">Register</button>
+            </section>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <section class="footer-container">
+            <a href="#" class="footer-logo">
+                <span>One</span>StopShop
+            </a>
+            <section class="footer-social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </section>
+            <section class="footer-links">
+                <strong>Quick Links</strong>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="dairy.html">Dairy</a></li>
+                    <li><a href="vegetables.html">Vegetables</a></li>
+                    <li><a href="cosmetic.html">Cosmetics</a></li>
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="loyalty.html">Loyalty</a></li>
+                </ul>
+            </section>
+        </section>
+    </footer>
+</body>
+</html>
